@@ -11,4 +11,4 @@
 
 const maxNm =[2,3,5,65,5,364,4434,3656,564];
 const arrayMax = Math.max(...maxNm)
-console.log(arrayMax); 
+console.log(maxNm); 

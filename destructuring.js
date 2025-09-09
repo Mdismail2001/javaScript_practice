@@ -36,24 +36,39 @@ const actor ={name :'Tom Cruise', age: 58, country: 'USA'};
 
 
 // You have an array of friends' names. Loop through the array and find out the names which have even number of characters and put them in a new array
-const friends = ['TomHanks','TomBrady','TomCruise', 'TomSolaiman'];
+// const friends = ['TomHanks','TomBrady','TomCruise', 'TomSolaiman'];
 
-const arrow = () => {
-    for (const friend of friends) {
-        numberOfriendName = (friend.length);
-        // console.log(numberOfriendName);
-        const evenFriends = [];
-        const oddFriends = [];
+// const arrow = () => {
+//     for (const friend of friends) {
+//         numberOfriendName = (friend.length);
+//         // console.log(numberOfriendName);
+//         const evenFriends = [];
+//         const oddFriends = [];
 
-        if (numberOfriendName % 2 == 0) {
-            evenFriends.push(friend);
-            console.log(evenFriends);
+//         if (numberOfriendName % 2 == 0) {
+//             evenFriends.push(friend);
+//             console.log(evenFriends);
 
-        }else {
-       }
+//         }else {
+//        }
 
-    }
-}
+//     }
+// }
 
-arrow(friends);
+// arrow(friends);
 
+
+// map function to get the square of an array and return a new array
+// const numbers = [1,2,3,4,5,6,7,8,9];
+
+//  const double = numbers.map( x => x * x);
+//     console.log(double);
+
+
+// forEach function to get the square of an array and no return a new array
+    const numbers = [1,2,3,4,5,6,7,8,9];
+
+    const double = numbers.forEach( x => console.log(x * x));
+       console.log(double);
+
+    

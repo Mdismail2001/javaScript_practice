@@ -101,7 +101,7 @@ const actor ={name :'Tom Cruise', age: 58, country: 'USA'};
 
 // class Teacher{
 
-//      constructor( name ,qualification, subject){
+//      ono( name ,qualification, subject){
 //         this.name = name;
 //         this.qualification = qualification;
 //         this.subject = subject;
@@ -118,17 +118,147 @@ const actor ={name :'Tom Cruise', age: 58, country: 'USA'};
 
 
 
-class car{
-    constructor( name, model, color){
-        this .name = name ;
-        this.model =model;
-        this.color = color;
-    }
-    move(){
-        console.log('I am moving');
-    }
+// class car{
+//     constructor( name, model, color){
+//         this .name = name ;
+//         this.model =model;
+//         this.color = color;
+//     }
+//     move(){
+//         console.log('I am moving');
+//     }
+// }
+
+// const myCar = new car('Toyata',2023, 'Black');
+// console.log(myCar);
+// myCar.move();
+
+
+// class Privetecar extends car{
+//     constructor(name, model, color, owner){
+//     super(name, model, color)
+//     this.owner = owner;
+//     }
+//     carOwner(){
+//         console.log('My car owner is ' + this.owner);
+//     }
+// }
+
+// const myPrivetecar = new Privetecar('Ismail');
+
+// console.log(myPrivetecar);
+// myPrivetecar.carOwner();
+
+
+// class Person{
+//     constructor(name,age){
+//         this.name = name;
+//         this.age = age;
+//     }
+//     rateKiKore(){
+
+//         console.log(`${this.name} Rate gumay`)
+//     }
+//     dineKikore(){
+//         console.log(`Dine ${this.name} Kage and class kore and thinking kore and shikhe shikhe `)
+//     }
+// }
+
+// const personInfo = new Person('Ismail',25);
+// console.log(personInfo);
+// personInfo.rateKiKore();
+// personInfo.dineKikore();
+
+
+// class S{
+    
+//     // constructor(name){
+//     //     this.name = name;
+//     // }
+    
+//     sayHello(name){
+//         console.log("Hi " + name)
+//     }
+
+//     sayBye(){
+//         console.log("Bye " + this.name)
+//     }
+// }
+
+// const cl = new S();
+
+// cl.sayHello("Ismail")
+// cl.sayBye()
+
+
+
+// task console log the secondary school loocation of sophia 
+
+// let data = {
+//     Sophia: {id: 20, study:[
+//                             {primary:[
+//                                 {schoolName: "quarter school", location: "kotwali"}
+//                             ]},
+//                              {secondary:[
+//                                 {schoolName: "sunshine school", location: "mirpur"}
+//                             ]},
+//                             {hiegherSecondary:[
+//                                 {schoolName: "college", location: "uttara"}
+//                             ]},
+//                             ]
+//             },
+// }
+
+// console.log(data.Sophia.study[1].secondary[0].location);
+
+
+// task 2 console.log output : Persburger, Herry
+
+
+// let stdudents = {222:{
+//                         name: "Jack",
+//                         section:"c",
+//                         class: "xl",
+//                         address:{
+//                                 "buldding no":23,
+//                                 "street": "St. Jonson",
+//                                 "city": "Petersburg",
+//                                 "country": "UK"
+//                             }
+//                         }, 
+//                 333:{
+//                         name: "Herry",
+//                         section:"b",
+//                         class: "x",
+//                         address:{
+//                                 "buldding no": 12,
+//                                 "street": "St. Martin",
+//                                 "city": "Huston",
+//                                 "country": "USA"
+//                             }
+//                         }
+//              };
+                
+//              console.log( stdudents[222].address.city);
+//                 console.log( stdudents[333].name);
+
+
+
+const oddNumbers = [1,3,5,7,9];
+
+const odnumber = oddNumbers.map(n => n);
+
+for (const number of odnumber) {
+     const evenNums = [];
+
+
+    let convertEvn = (number+1);
+
+    // console.log(convertEvn);
+
+
+  const evenArray = evenNums.push(convertEvn);
+
+ console.log(evenArray);
 }
 
-const myCar = new car('Toyata',2023, 'Black');
-console.log(myCar);
-myCar.move();

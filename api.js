@@ -21,10 +21,13 @@ function displayData(data){
     const ul = document.getElementById('users-list')
     for (const user of data){
         // console.log(user.name);
-        const li = document.createElement('li');
-        li.innerText = user.name;
+        const div = document.createElement('div');
+        div.innerHTML = `<h4>${user.name}</h4>
+                        <h4>${user.username}</h4>
+                        <h6>${user.email}</h6>
+                         `
 
-        ul.appendChild(li);
+        ul.appendChild(div);
 
 
     }
